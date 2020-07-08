@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Modular Synths</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        Modular Synths
+      </header>
+
+      <nav>
+        <a class="menu" href="index.html">HOME</a>
+        <a class="menu" href="tutorials.html">TUTORIALS</a>
+        <a class="menu" href="gallery.html">GALLERY</a>
+        <a class="menu" href="contact.html">CONTACT</a>
+      </nav>
+
+      <form name="contact" method="POST" data-netlify="true">
+        <h3>Neem contact met ons op</h3>
+
+        <p>
+          <label
+            >Jouw naam: <input type="text" name="name" placeholder="type hier"
+          /></label>
+        </p>
+        <p>
+          <label
+            >Jouw e-mail:
+            <input type="email" name="email" placeholder="Wat is jouw e-mail?"
+          /></label>
+        </p>
+        <p>
+          Mijn vraag gaat over:
+        </p>
+        <p>
+          <label><input type="radio" name="type" />Eurorack</label>
+          <label><input type="radio" name="type" />Buchla</label>
+        </p>
+
+        <p>
+          <textarea name="message" rows="18" cols="24">
+Stel hier je vraag</textarea
+          >
+        </p>
+        <p>
+          <button type="submit" class="button">verzenden</button>
+        </p>
+      </form>
+    </div>
+    <div class="footer">
+      &copy Charles van Lieshout
+    </div>
+  </body>
+</html>
